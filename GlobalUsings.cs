@@ -1,0 +1,14 @@
+﻿global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Text;
+global using System.Threading.Tasks;
+global using UnityEngine;
+global using HarmonyLib;
+global using BepInEx;
+global using BepInEx.Logging;
+global using System.IO;
+global using TCGShopBetterPackOpener.Utils;
+global using static TCGShopBetterPackOpener.Extensions.Vector3Extensions;
+global using static TCGShopBetterPackOpener.Extensions.StringExtensions;
+global using static TCGShopBetterPackOpener.Logging.Logger;
