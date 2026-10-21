@@ -2,9 +2,11 @@
   "namespace": "IngoH",
   "name": "TCGShopBetterPackOpener",
   "description": "A mod for TCG Card Shop Simulator that makes the pack opening machines return high-value packs to the player, configurable to different thresholds and card types.",
-  "version_number": "1.0.0",
+  "version_number": "1.0.1",
   "dependencies": [
-    "BepInEx-BepInExPack-5.4.2305"
+    "BepInEx-BepInExPack-5.4.2305",
+    "Shared-NewtonsoftJsonDotNet-13.0.4",
+    "CORE_API_TEAM-Configuration_Manager-18.3.2"
   ],
   "website_url": "https://github.com/IngoHHacks/TCGShopBetterPackOpener"
 }

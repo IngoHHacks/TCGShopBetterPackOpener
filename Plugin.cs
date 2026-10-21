@@ -28,10 +28,10 @@ public class Plugin : BaseUnityPlugin
         PluginPath = Path.GetDirectoryName(Info.Location);
 
         Instance = this;
-
+        
         Settings.Instance.Init(Config);
     }
-
+    
     private void OnEnable()
     {
         Harmony.PatchAll();

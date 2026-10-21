@@ -16,7 +16,8 @@ A mod for TCG Card Shop Simulator that makes the pack opening machines return hi
    - Refer to the BepInEx manual installation instructions (found on the Thunderstore listing) for help if needed.
 2. Download the latest release of the mod from the [Thunderstore listing](https://thunderstore.io/c/tcg-card-shop-simulator/p/IngoH/TCGShopBetterPackOpener/) or the [GitHub releases page](https://github.com/IngoHHacks/TCGShopBetterPackOpener/releases/latest).
 3. Extract the contents of the downloaded zip file's `plugins` folder into your game's `BepInEx/plugins` folder. If the `plugins` folder does not exist, create it.
-4. Run the game.
+4. Download and install the [Configuration_Manager](https://github.com/BepInEx/BepInEx.ConfigurationManager/releases/latest) mod in the same way. This is a required dependency.
+5. Run the game.
 
 ## Before You Start
 
