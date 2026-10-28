@@ -12,7 +12,7 @@ public static class ItemUtils
         item.transform.localPosition = offset ?? Vector3.zero;
         item.transform.localRotation = rotation ?? Quaternion.identity;
         item.m_Collider.enabled = false;
-        item.m_Rigidbody.isKinematic = true;
+        item.GetOrCreateRigidbody().isKinematic = true;
         CSingleton<InteractionPlayerController>.Instance.AddHoldItemToFront(item);
         item.gameObject.SetActive(true);
         return item;
